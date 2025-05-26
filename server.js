@@ -34,7 +34,7 @@ app.get('/patientname',async(req, res) => {
 // Endpoint to get all Appointments
 app.get('/myappointments',async(req,res) => {
   try{
-      const response = await fetch('http://localhost:3000/patientname')
+      const response = await fetch('https://physionic-backend.vercel.app/patientname')
       let result = await response.json();
       const db = client.db(dbName)
       const collection = db.collection('appointments')
