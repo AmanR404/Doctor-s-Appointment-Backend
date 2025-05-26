@@ -24,5 +24,3 @@ Physionic is a modern, single-page application (SPA) built to simplify the proce
 | MongoDB       | Database for appointments         |
 ---
 
-## 📦 Project Structure
-
